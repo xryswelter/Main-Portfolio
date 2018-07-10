@@ -1,0 +1,66 @@
+footer{
+    min-height:100px;
+    padding:20px;
+    background-color:rgba(0, 0, 0, 0.3);
+    /* position: fixed;
+    bottom:0;
+    left:0;
+    min-width:100vw; */
+}
+body{
+    background-image:url("../../../../MacroRef/Images/seal.png");
+    background-size:cover;
+    background-position: center;
+    height:100vh;
+}
+h3{
+    text-align: center;
+    font-weight:bold;
+}
+.title{
+    background-color:rgba(0, 0, 0, 0.3);
+    min-height: 100px;
+    text-align: center;
+    justify-content:center;
+    padding:30px;
+    color:white;
+    margin-bottom:10px;
+}
+.name{
+    /* font-size: 64px; */
+    font-weight: bolder;
+    text-shadow: 3px 3px darkslategrey;
+}
+.aboutMe{
+    padding:20px;
+    border:1px solid black;
+    margin-top:20px;
+    margin-bottom:20px;
+    background-color:white;
+}
+.logos{
+    justify-content:center;
+    /* padding:20px; */
+}
+.logo, .col-md-3{
+    text-align: center;
+}
+.program{
+    background-size: contain;
+    max-height:50px;
+    max-width:50px;
+}
+#youtube{
+    max-height:50px;
+}
+.navigation{
+    background-color:lightblue;
+    /* border-style: outset; */
+    max-width:300px;
+    font-size:14px;
+    text-align: center;
+    max-height:30px;
+}
+.nav{
+    justify-content: space-evenly;
+}
