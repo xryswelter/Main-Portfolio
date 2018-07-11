@@ -2,16 +2,13 @@ footer{
     min-height:100px;
     padding:20px;
     background-color:rgba(0, 0, 0, 0.3);
-    /* position: fixed;
-    bottom:0;
-    left:0;
-    min-width:100vw; */
 }
 body{
     background-image:url("../../../../MacroRef/Images/seal.png");
     background-size:cover;
     background-position: center;
     height:100vh;
+    /* background-repeat: no-repeat; */
 }
 h3{
     text-align: center;
@@ -57,10 +54,17 @@ h3{
     background-color:lightblue;
     /* border-style: outset; */
     max-width:300px;
-    font-size:14px;
+    font-size:16px;
     text-align: center;
-    max-height:30px;
+    min-height:30px;
+    word-wrap: normal;
 }
 .nav{
     justify-content: space-evenly;
+}
+.headShot{
+    background-size:contain;
+    min-height:250px;
+    padding:20px;
+    margin:auto;
 }
