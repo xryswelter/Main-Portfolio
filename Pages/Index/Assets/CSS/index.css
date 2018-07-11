@@ -1,0 +1,46 @@
+h3{
+    text-align: center;
+    font-weight:bold;
+}
+.aboutMe{
+    padding:20px;
+    border:1px solid black;
+    margin-top:20px;
+    margin-bottom:20px;
+    background-color:white;
+    max-width:700px;
+    box-shadow: 10px 10px grey;
+}
+.navigation{
+    background-color:lightblue;
+    /* border-style: outset; */
+    max-width:300px;
+    font-size:16px;
+    text-align: center;
+    min-height:30px;
+    word-wrap: normal;
+}
+.nav{
+    justify-content: space-evenly;
+}
+.headShot{
+    box-shadow: 10px 10px grey;
+    background-size:contain;
+    min-width:250px;
+    padding:0px;
+    margin:auto;
+}
+.nav-link{
+    color:white;
+}
+
+.rowContent{
+    flex-wrap: wrap;
+}
+.imageFloat{
+    align-content: center;
+    margin:auto;
+}
+.content{
+    top-margin:10px;
+}

@@ -4,15 +4,11 @@ footer{
     background-color:rgba(0, 0, 0, 0.3);
 }
 body{
-    background-image:url("../../../../MacroRef/Images/seal.png");
+    background-image:url("../Images/seal.png");
     background-size:cover;
     background-position: center;
     height:100vh;
     /* background-repeat: no-repeat; */
-}
-h3{
-    text-align: center;
-    font-weight:bold;
 }
 .title{
     background-color:rgba(0, 0, 0, 0.3);
@@ -21,19 +17,11 @@ h3{
     justify-content:center;
     padding:30px;
     color:white;
-    margin-bottom:10px;
 }
 .name{
     /* font-size: 64px; */
     font-weight: bolder;
     text-shadow: 3px 3px darkslategrey;
-}
-.aboutMe{
-    padding:20px;
-    border:1px solid black;
-    margin-top:20px;
-    margin-bottom:20px;
-    background-color:white;
 }
 .logos{
     justify-content:center;
@@ -47,24 +35,8 @@ h3{
     max-height:50px;
     max-width:50px;
 }
-#youtube{
+#linkedIn{
     max-height:50px;
-}
-.navigation{
-    background-color:lightblue;
-    /* border-style: outset; */
-    max-width:300px;
-    font-size:16px;
-    text-align: center;
-    min-height:30px;
-    word-wrap: normal;
-}
-.nav{
-    justify-content: space-evenly;
-}
-.headShot{
-    background-size:contain;
-    min-height:250px;
-    padding:20px;
-    margin:auto;
+    max-width:50px;
+    background-image: url('/MacroRef/Images/Linkedin.png');
 }

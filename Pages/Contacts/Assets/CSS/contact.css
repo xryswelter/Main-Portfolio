@@ -1,0 +1,21 @@
+form{
+    background-color:rgba(220, 226, 252, 0.95);
+    padding:20px;
+    margin:20px auto;
+}
+input + h4{
+    margin-top:20px;
+}
+
+input{
+    min-width: 80%;
+}
+br + button{
+    margin-top:20px;
+}
+.userName{
+    min-height:200px;
+}
+textarea{
+    min-width: 80%;
+}
