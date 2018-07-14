@@ -1,4 +1,3 @@
-
 $('button').on('click', function () {
     console.log($(this).val());
     let value = $(this).val();
