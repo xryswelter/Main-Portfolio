@@ -1,7 +1,7 @@
 footer{
     min-height:100px;
     padding:20px;
-    background-color:rgba(0, 0, 0, 0.3);
+    background-color:rgba(0, 0, 0, 0.5);
 }
 body{
     background-image:url("../Images/seal.png");
@@ -11,7 +11,7 @@ body{
     /* background-repeat: no-repeat; */
 }
 .title{
-    background-color:rgba(0, 0, 0, 0.3);
+    background-color:rgba(0, 0, 0, 0.5);
     min-height: 100px;
     text-align: center;
     justify-content:center;
@@ -42,7 +42,7 @@ body{
 }
 .youtube{
     max-height:50px;
-    max-width:50px;
+    /* max-width:50px; */
 }
 
 .links{
