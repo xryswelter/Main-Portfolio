@@ -17,27 +17,40 @@ $('button').on('click', function () {
             }
             break;
         case 'trivia':
-        if ($('#trivia').css('display') === 'none') {
-            $('#trivia').css('display', 'block')
-        } else {
-            $('#trivia').css('display', 'none')
-        }
+            if ($('#trivia').css('display') === 'none') {
+                $('#trivia').css('display', 'block')
+            } else {
+                $('#trivia').css('display', 'none')
+            }
             break;
         case 'train':
-        if ($('#train').css('display') === 'none') {
-            $('#train').css('display', 'block')
-        } else {
-            $('#train').css('display', 'none')
-        }
+            if ($('#train').css('display') === 'none') {
+                $('#train').css('display', 'block')
+            } else {
+                $('#train').css('display', 'none')
+            }
             break;
         case 'giphy':
-        if ($('#giphy').css('display') === 'none') {
-            $('#giphy').css('display', 'block')
-        } else {
-            $('#giphy').css('display', 'none')
-        }
+            if ($('#giphy').css('display') === 'none') {
+                $('#giphy').css('display', 'block')
+            } else {
+                $('#giphy').css('display', 'none')
+            }
             break;
-
+        case 'bamazon':
+            if ($('#bamazon').css('display') === 'none') {
+                $('#bamazon').css('display', 'block')
+            } else {
+                $('#bamazon').css('display', 'none')
+            }
+            break;
+        case 'Friend-Finder':
+            if ($('#Friend-Finder').css('display') === 'none') {
+                $('#Friend-Finder').css('display', 'block')
+            } else {
+                $('#Friend-Finder').css('display', 'none')
+            }
+            break;
         default:
             break;
     }
