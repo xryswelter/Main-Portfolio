@@ -51,6 +51,13 @@ $('button').on('click', function () {
                 $('#Friend-Finder').css('display', 'none')
             }
             break;
+        case 'project2':
+            if ($('#project2').css('display') === 'none') {
+                $('#project2').css('display', 'block')
+            } else {
+                $('#project2').css('display', 'none')
+            }
+            break;
         default:
             break;
     }
